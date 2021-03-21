@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #f1f5f8;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  background-color: white;
+  position: relative;
+  box-shadow: 2px 2px 2px #ccc;
+  z-index: 20;
+}
+.nav-center h4 {
+  padding: 0px 10px;
+  color: #54a6ea;
+  font-size: 20px;
+}
+.nav-center {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+}
+.nav-center ul {
+  list-style: none;
+}
+.nav-center li {
+  display: inline;
+  padding: 0 10px;
+}
+.nav-center li a,
+.nav-center li a:visited {
+  text-decoration: none;
+  color: #222222;
+  font-size: 18px;
+}
+
+.nav-center li a:hover {
+  font-size: 18px;
+  transition: color 0.4s ease-in;
+  color: #54a6ea;
+}
+main {
+  height: 80vh;
+}
+main .container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container button {
+  margin: 20px;
+  height: 50px;
+  width: 150px;
+  background: none;
+  border: none;
+  color: #222222;
+  font-size: 20px;
+  border: 2px solid #222;
+  border-radius: 10px;
+  outline: none;
+  transition: background-color 0.5s ease;
+}
+.container button:hover {
+  background-color: #222;
+  transition: 0.5s background-color ease;
+  color: white;
+}
+.container h2 {
+  background-color: #222222;
+  font-size: 40px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.container h2 span {
+  color: #54a6ea;
+}

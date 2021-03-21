@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../Assets/bg-img.jpg");
+  background-position: center center;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: rgb(37, 36, 36);
+  text-align: center;
+}
+.header {
+  font-size: 3em;
+  font-weight: 600;
+  text-align: center;
+}
+.countdown {
+  display: flex;
+  text-align: center;
+  font-size: 2em;
+}
+.common_style {
+  margin: 1em;
+}
